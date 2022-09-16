@@ -1,0 +1,29 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card {
+  border-radius: 20px;
+}
+.card h5 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 19px;
+}
+.card-img{
+    border-radius: 10px;
+}
+.card p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 15px;
+}
+.attribution {
+  position: absolute;
+  top: 0;
+}
